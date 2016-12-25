@@ -1,0 +1,28 @@
+{
+  "name": "mixerbox-desktop",
+  "productName": "MixerBox Desktop",
+  "version": "0.1.0",
+  "description": "A minimal Desktop Application for play MixerBox.",
+  "main": "app",
+  "scripts": {
+    "start": "electron app",
+    "build": "npm run build:osx && npm run build:linux && npm run build:win32",
+    "build:osx": "electron-packager . --out=dist --prune --asar --overwrite --platform=darwin --arch=x64 --icon=icon.icns",
+    "build:linux": "electron-packager . --out=dist --prune --asar --overwrite --platform=linux --arch=x64 --icon=icon.icns",
+    "build:win32": "electron-packager . --out=dist --prune --asar --overwrite --platform=win32 --arch=x64 --icon=icon.iconset/icon_256x256.ico  --version-string.ProductName=$npm_package_productName --version-string.FileDescription=$npm_package_productName --version-string.OriginalFilename=\"MixerBox-Desktop.exe\""
+
+
+  },
+  "keywords": [
+    "MixerBox",
+    "Desktop",
+    "Player"
+  ],
+  "repository": "https://github.com/pcwu/mixerbox-desktop.git",
+  "author": "Po-Chun Wu",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.4.0"
+  }
+}
