@@ -9,7 +9,7 @@ Download
 
 #### Current Release
 
-*   [MixerBox-Desktop-macOS-v0.1.0.zip](https://github.com/pcwu/mixerbox-desktop/releases/download/v0.1.0/MixerBox-Desktop-macOS-v0.1.0.zip)
+*   [MixerBox-Desktop-macOS-v0.1.1.zip](https://github.com/pcwu/mixerbox-desktop/releases/download/v0.1.1/MixerBox-Desktop-macOS-v0.1.1.zip)
 
 
 Screenshots
@@ -21,7 +21,9 @@ Screenshots
 Known Bugs and Issues
 --------
 
-*   Can't allow Facebook login.
+#### Facebook LogIn.
+
+Solution: After login to facebook, restart the app.
 
 Develop
 --------
