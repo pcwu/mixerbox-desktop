@@ -11,7 +11,10 @@ app.on('ready', function () {
   mainWindow = new BrowserWindow({
     width: 1280,
     height: 800,
-    titleBarStyle: 'hidden'
+    titleBarStyle: 'hidden',
+    webPreferences: {
+      nodeIntegration: false
+    }
   })
   mainWindow.loadURL('http://mixerbox.com')
   mainWindow.on('closed', function () {

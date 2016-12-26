@@ -18,6 +18,11 @@ Screenshots
 ![screenshot.png](screenshot.png)
 ![screenshot2.png](screenshot2.png)
 
+Known Bugs and Issues
+--------
+
+*   Can't allow Facebook login.
+
 Develop
 --------
 
@@ -56,4 +61,4 @@ $ npm run build:linux
 License
 -------
 
-[The MIT License](LICENSE.md).
+[The MIT License](LICENSE).
