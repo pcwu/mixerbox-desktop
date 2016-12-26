@@ -7,7 +7,7 @@ Unofficial MixerBox as a standalone application on Desktop.
 Download
 --------
 
-### [Current Release](https://github.com/pcwu/mixerbox-desktop/releases/latest)
+#### Current Release
 
 *   [MixerBox-Desktop-macOS-v0.1.0.zip](https://github.com/pcwu/mixerbox-desktop/releases/download/v0.1.0/MixerBox-Desktop-macOS-v0.1.0.zip)
 
