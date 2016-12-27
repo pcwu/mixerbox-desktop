@@ -9,7 +9,7 @@ Download
 
 #### Current Release
 
-*   [MixerBox-Desktop-macOS-v0.1.1.zip](https://github.com/pcwu/mixerbox-desktop/releases/download/v0.1.1/MixerBox-Desktop-macOS-v0.1.1.zip)
+*   [MixerBox-Desktop-macOS-v0.1.2.zip](https://github.com/pcwu/mixerbox-desktop/releases/download/v0.1.2/MixerBox-Desktop-macOS-v0.1.2.zip)
 
 
 Screenshots
