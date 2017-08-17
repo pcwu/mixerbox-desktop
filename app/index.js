@@ -8,6 +8,22 @@ const menu = require('./menu')
 
 let mainWindow;
 
+const volumeupCode = `
+  var slider = $('#volume-slider');
+  var currentValue = slider.slider('value');
+  var newValue = currentValue + 5;
+  slider.slider({ value: newValue });
+  setPlayerVolume(newValue);
+`;
+
+const volumedownCode = `
+  var slider = $('#volume-slider');
+  var currentValue = slider.slider('value');
+  var newValue = currentValue - 5;
+  slider.slider({ value: newValue });
+  setPlayerVolume(newValue);
+`;
+
 app.on('ready', function () {
 
   mainWindow = new BrowserWindow({
@@ -34,6 +50,13 @@ app.on('ready', function () {
     mainWindow.webContents.executeJavaScript("playPrev();");
   })
 
+  globalShortcut.register('volumeup', () => {
+    mainWindow.webContents.executeJavaScript(volumeupCode);
+  })
+
+  globalShortcut.register('volumedown', () => {
+    mainWindow.webContents.executeJavaScript(volumedownCode);
+  })
 }
 )
 
