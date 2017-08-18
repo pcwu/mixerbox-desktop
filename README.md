@@ -3,7 +3,7 @@ MixerBox-Desktop
 
 Unofficial MixerBox as a standalone application on Desktop.
 
-Make it easier to maintain and play YouTube videos with keyboard shortcuts. (play, pause, next and previous)
+Make it easier to maintain and play YouTube videos with keyboard shortcuts. (play, pause, next, previous and volume up/down)
 
 
 Download
